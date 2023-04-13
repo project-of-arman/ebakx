@@ -5,7 +5,7 @@ import { MdOutlineManageSearch } from "react-icons/md";
 
 const Activity = () => {
   return (
-    <div className="container mx-auto my-12 h-screen">
+     <div className=" m-12 h-screen">
       {/* User profile */}
       <div className="my-14">
         <div className="bg-white w-[374px] h-[126px] rounded-lg shadow-lg px-9 py-4 flex gap-5">
