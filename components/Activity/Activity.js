@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { MdOutlineManageSearch } from "react-icons/md";
+import { ImPageBreak } from "react-icons/im";
+import { AiOutlineHeart } from "react-icons/ai";
+import { GoTag } from "react-icons/go";
 
 const Activity = () => {
   return (
@@ -130,11 +133,11 @@ const Activity = () => {
           {/* Summary details */}
           <div className="w-[867px]">
             <div className="flex justify-center mb-16">
-              <div className="w-96">
-                <h2 className="px-3 text-lg mb-5 font-medium">
+              <div className="w-80">
+                <h2 className="text-lg mb-5 font-medium">
                   Get more out of My ebakx
                 </h2>
-                <p className="text-[14px] text-justify">
+                <p className="text-[14px] text-center">
                   ebakx's a big place, here is your space to keep an eye on the
                   items that matter most to you.
                 </p>
@@ -157,7 +160,7 @@ const Activity = () => {
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                  <MdOutlineManageSearch className="text-grey text-2xl"/>
+                  <ImPageBreak className="text-grey text-2xl"/>
                   </div>
                   <p className="my-8 text-base">Watch items you want to buy</p>
                   <button className="border-2 border-secondary py-[10px] px-4 rounded">
@@ -168,7 +171,7 @@ const Activity = () => {
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                  <MdOutlineManageSearch className="text-grey text-2xl"/>
+                  <AiOutlineHeart className="text-grey text-2xl"/>
                   </div>
                   <p className="my-8 text-base">See favorite you want to buy</p>
                   <button className="border-2 border-secondary py-[10px] px-4 rounded">
@@ -179,7 +182,7 @@ const Activity = () => {
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                  <MdOutlineManageSearch className="text-grey text-2xl"/>
+                  <GoTag className="text-grey text-2xl"/>
                   </div>
                   <p className="my-8 text-base">List item & start selling</p>
                   <button className="border-2 border-secondary py-[10px] px-4 rounded">
