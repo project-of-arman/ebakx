@@ -8,7 +8,7 @@ import { GoTag } from "react-icons/go";
 
 const Activity = () => {
   return (
-     <div className=" m-12 h-screen">
+    <div className=" m-12 h-screen">
       {/* User profile */}
       <div className="my-14">
         <div className="bg-white w-[374px] h-[126px] rounded-lg shadow-lg px-9 py-4 flex gap-5">
@@ -19,6 +19,7 @@ const Activity = () => {
               alt=""
             />
           </div>
+          {/* Profile card */}
           <div className="w-[162px] h-[94px]">
             <h2 className="text-lg leading-10 font-semibold">Hi, Roxy</h2>
             <p className="text-lg leading-8">Good Morning</p>
@@ -34,7 +35,7 @@ const Activity = () => {
           </div>
         </div>
       </div>
-      {/* Activity button */}
+      {/* Activity buttons */}
       <div className="flex items-end justify-between">
         <div>
           <ul className="flex gap-8">
@@ -50,6 +51,7 @@ const Activity = () => {
           </ul>
         </div>
         <div>
+            {/* Become a seller button */}
           <button className="w-[209px] h-14 shadow-lg bg-secondary text-white shadow-[ 0px 10px 15px rgba(255, 164, 28, 0.2)] rounded">
             Become a seller
           </button>
@@ -73,6 +75,7 @@ const Activity = () => {
                   Summary
                 </Link>
               </li>
+              {/* Recently viewed */}
               <li>
                 <Link
                   className="flex items-center gap-3 rounded-[10px]   text-grey bg-opacity-25 text-md "
@@ -84,6 +87,7 @@ const Activity = () => {
                   Recently viewed
                 </Link>
               </li>
+              {/* Saved Sellers */}
               <li>
                 <Link
                   className="flex items-center gap-3 rounded-[10px]   text-grey bg-opacity-25 text-md "
@@ -95,6 +99,7 @@ const Activity = () => {
                   Saved Sellers
                 </Link>
               </li>
+              {/* Wishlist */}
               <li>
                 <Link
                   className="flex items-center gap-3 rounded-[10px]   text-grey bg-opacity-25 text-md "
@@ -106,9 +111,10 @@ const Activity = () => {
                   Wishlist
                 </Link>
               </li>
+              {/* Buy Again */}
               <li>
                 <Link
-                  className="flex items-center gap-3 rounded-[10px]   text-grey bg-opacity-25 text-md "
+                  className="flex items-center gap-3 rounded-[10px] text-grey bg-opacity-25 text-md "
                   href={"#"}
                 >
                   <span>
@@ -117,11 +123,10 @@ const Activity = () => {
                   Buy Again
                 </Link>
               </li>
+              {/*  Switch to selling */}
               <li>
                 <Link
-                  className="flex items-center gap-3 rounded-[10px]   text-grey bg-opacity-25 text-md "
-                  href={"#"}
-                >
+                  className="flex items-center gap-3 rounded-[10px] text-grey bg-opacity-25 text-md "  href={"#"} >
                   <span>
                     <img src="/icons/tag.svg" alt="" />
                   </span>
@@ -130,9 +135,10 @@ const Activity = () => {
               </li>
             </ul>
           </div>
-          {/* Summary details */}
+          {/* details */}
           <div className="w-[867px]">
             <div className="flex justify-center mb-16">
+                {/* page title */}
               <div className="w-80">
                 <h2 className="text-lg mb-5 font-medium">
                   Get more out of My ebakx
@@ -144,10 +150,11 @@ const Activity = () => {
               </div>
             </div>
             <div className="flex justify-between gap-[85px]">
+                 {/* Card 1 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                    <MdOutlineManageSearch className="text-grey text-2xl"/>
+                    <MdOutlineManageSearch className="text-grey text-2xl" />
                   </div>
                   <p className="my-8 text-base">
                     Find deals on items just for you
@@ -157,10 +164,11 @@ const Activity = () => {
                   </button>
                 </div>
               </div>
+               {/* Card 2 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                  <ImPageBreak className="text-grey text-2xl"/>
+                    <ImPageBreak className="text-grey text-2xl" />
                   </div>
                   <p className="my-8 text-base">Watch items you want to buy</p>
                   <button className="border-2 border-secondary py-[10px] px-4 rounded">
@@ -168,10 +176,11 @@ const Activity = () => {
                   </button>
                 </div>
               </div>
+               {/* Card 3 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                  <AiOutlineHeart className="text-grey text-2xl"/>
+                    <AiOutlineHeart className="text-grey text-2xl" />
                   </div>
                   <p className="my-8 text-base">See favorite you want to buy</p>
                   <button className="border-2 border-secondary py-[10px] px-4 rounded">
@@ -179,10 +188,11 @@ const Activity = () => {
                   </button>
                 </div>
               </div>
+              {/* Card 4 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
-                  <GoTag className="text-grey text-2xl"/>
+                    <GoTag className="text-grey text-2xl" />
                   </div>
                   <p className="my-8 text-base">List item & start selling</p>
                   <button className="border-2 border-secondary py-[10px] px-4 rounded">
