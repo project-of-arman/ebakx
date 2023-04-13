@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { MdOutlineManageSearch } from "react-icons/md";
@@ -51,7 +50,7 @@ const Activity = () => {
           </ul>
         </div>
         <div>
-            {/* Become a seller button */}
+          {/* Become a seller button */}
           <button className="w-[209px] h-14 shadow-lg bg-secondary text-white shadow-[ 0px 10px 15px rgba(255, 164, 28, 0.2)] rounded">
             Become a seller
           </button>
@@ -126,7 +125,9 @@ const Activity = () => {
               {/*  Switch to selling */}
               <li>
                 <Link
-                  className="flex items-center gap-3 rounded-[10px] text-grey bg-opacity-25 text-md "  href={"#"} >
+                  className="flex items-center gap-3 rounded-[10px] text-grey bg-opacity-25 text-md "
+                  href={"#"}
+                >
                   <span>
                     <img src="/icons/tag.svg" alt="" />
                   </span>
@@ -138,7 +139,7 @@ const Activity = () => {
           {/* details */}
           <div className="w-[867px]">
             <div className="flex justify-center mb-16">
-                {/* page title */}
+              {/* page title */}
               <div className="w-80">
                 <h2 className="text-lg mb-5 font-medium">
                   Get more out of My ebakx
@@ -150,7 +151,7 @@ const Activity = () => {
               </div>
             </div>
             <div className="flex justify-between gap-[85px]">
-                 {/* Card 1 */}
+              {/* Card 1 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
@@ -164,7 +165,7 @@ const Activity = () => {
                   </button>
                 </div>
               </div>
-               {/* Card 2 */}
+              {/* Card 2 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
@@ -176,7 +177,7 @@ const Activity = () => {
                   </button>
                 </div>
               </div>
-               {/* Card 3 */}
+              {/* Card 3 */}
               <div className="flex justify-center">
                 <div className="text-center">
                   <div className="flex justify-center">
